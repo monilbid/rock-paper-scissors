@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors by Monil Bid</title>
+
+  <link rel="stylesheet" href="styles/style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="board">
+    <div class="player">
+      <div class="unit">
+        <input type="button" value="Rock" onclick="playGame(0);">
+      </div>
+      <div class="unit">
+        <input type="button" value="Paper" onclick="playGame(1);">
+      </div>
+      <div class="unit">
+        <input type="button" value="Scissors" onclick="playGame(2);">
+      </div>
+    </div>
+    <div class="result" id="result"></div>
+    <div class="computer" id="computer"></div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
